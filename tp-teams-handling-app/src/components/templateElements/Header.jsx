@@ -40,6 +40,9 @@ const Header = ({ showHeader }) => {
 							<li>
 								<Link to="/teams/add">✚ Ajout d'équipes</Link>
 							</li>
+							<li>
+								<Link to="/players/add">✚ Ajout de joueurs</Link>
+							</li>
 						</ul>
 					</div>
 				</div>
