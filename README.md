@@ -1,4 +1,5 @@
-# Guide de lancement du projet
+#Guide de lancement du projet
+Projet by Pierre Marquet
 
 ## Configuration requise
 
