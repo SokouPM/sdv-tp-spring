@@ -2,9 +2,9 @@
 
 ## Configuration requise
 
-- Java Development Kit (JDK) version 8 ou supérieure
+- Java Development Kit (JDK) version 17 ou supérieure
 - Node.js et npm (Node Package Manager)
-- Un éditeur de code (par exemple, Visual Studio Code, IntelliJ IDEA, Eclipse)
+- Un éditeur de code (de préférence IntelliJ IDEA Ultimate edition)
 - Un navigateur web moderne
 
 ## Étapes pour lancer le backend (Spring Boot)
