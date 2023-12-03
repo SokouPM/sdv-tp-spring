@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/players")
-@CrossOrigin(origins = "*", allowCredentials = "true")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class PlayerController {
 
     private final PlayerService playerService;

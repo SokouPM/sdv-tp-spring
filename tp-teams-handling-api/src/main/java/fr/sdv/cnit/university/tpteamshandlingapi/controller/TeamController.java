@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/teams")
-@CrossOrigin(origins = "*", allowCredentials = "true")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class TeamController {
 
     private final TeamService teamService;
