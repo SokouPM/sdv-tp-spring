@@ -11,10 +11,23 @@
 
 1. Ouvrez un terminal/command prompt.
 
-2. Lancez l'application Spring Boot.
+2. De la racine du projet (où se trouvent les dossiers tp-teams-handling-api et tp-teams-handling-app), Naviguez vers le répertoire du projet backend.
 
    ```bash
-   .java -jar tp-teams-handling-api-0.0.1-SNAPSHOT.jar
+   cd tp-teams-handling-api
+
+   ```
+
+3. Lancez l'application Spring Boot.
+
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
+   ou (sur Windows)
+
+   ```bash
+   mvnw.cmd spring-boot:run
    ```
 
    Cela démarrera le serveur backend à l'adresse [http://localhost:8080](http://localhost:8080) (si le port 8080 est déjà utilisé, vous devrez tuer le processus qui l'utilise)
