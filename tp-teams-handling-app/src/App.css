@@ -1,0 +1,29 @@
+.hero {
+	background: url("/public/img/bg.png") no-repeat center center fixed;
+}
+
+.bg-404 {
+	font-size: 40em;
+}
+
+.error-animation {
+	animation: error-entrance 0.2s ease 0s 1 normal forwards;
+}
+
+@keyframes error-entrance {
+	0% {
+		transform: translateX(100px);
+	}
+
+	33% {
+		transform: translateX(-80px);
+	}
+
+	66% {
+		transform: translateX(40px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
