@@ -253,7 +253,7 @@ const PlayerForm = ({ playerToUpdate, teamParamId }) => {
 
 					<RenderTeamsSelect errors={errors} touched={touched} />
 
-					{teams && teams.length && (
+					{teams && teams.length ? (
 						<div className="flex justify-center items-center">
 							{loading ? (
 								<button className="btn btn-primary btn-wide" disabled>
@@ -270,7 +270,7 @@ const PlayerForm = ({ playerToUpdate, teamParamId }) => {
 								</button>
 							)}
 						</div>
-					)}
+					) : null}
 				</Form>
 			)}
 		</Formik>
