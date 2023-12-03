@@ -2,7 +2,7 @@
 
 ## Configuration requise
 
-- Java Development Kit (JDK) version 17 ou supérieure
+- Java Development Kit (JDK) version 21 ou supérieure
 - Node.js et npm (Node Package Manager)
 - Un éditeur de code (de préférence IntelliJ IDEA Ultimate edition)
 - Un navigateur web moderne
